@@ -45,8 +45,8 @@
 		72B8681C17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B8681A17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png */; };
 		72B8682417B3C50100A871E5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B8682117B3C50100A871E5 /* MainStoryboard_iPhone.storyboard */; };
 		F6ACFD7519D3414A9256BAA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E65F1F32904CA68E71C0AC /* libPods.a */; };
-		FAF5A5C817BAE1A60034D597 /* SideSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C517BAE1A60034D597 /* SideSwipeTableViewCell.m */; };
-		FAF5A5C917BAE1A60034D597 /* SideSwipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C717BAE1A60034D597 /* SideSwipeTableViewController.m */; };
+		FAF5A5C817BAE1A60034D597 /* SideSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C517BAE1A60034D597 /* SideSwipeTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FAF5A5C917BAE1A60034D597 /* SideSwipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C717BAE1A60034D597 /* SideSwipeTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SideSwipeTableViewController.h"
 
-@interface NewsGroupViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface NewsGroupViewController : SideSwipeTableViewController <UITableViewDelegate, UITableViewDataSource>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
+
+@property (strong, nonatomic) NSArray *buttonData;
+@property (strong, nonatomic) NSMutableArray *buttons;
+
 @end
