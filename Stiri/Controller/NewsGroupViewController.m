@@ -219,10 +219,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *subtitleTableIdentifier = @"subtitleViewCellGroup";
-    SideSwipeTableViewCell *cell = (SideSwipeTableViewCell*)[self.tableView dequeueReusableCellWithIdentifier:subtitleTableIdentifier];
+    SideSwipeTableViewCell *cell = (SideSwipeTableViewCell *)[self.tableView dequeueReusableCellWithIdentifier:subtitleTableIdentifier];
     if (cell == nil) {
         cell = [[SideSwipeTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:subtitleTableIdentifier];
     }
+	cell.supressDeleteButton = ![self gestureRecognizersSupported];
     NewsGroup *ng = (self.groups)[indexPath.row];
     cell.textLabel.text = ng.title;
     NSUInteger numberOfNewSources = ng.newsSources.count;
