@@ -45,6 +45,8 @@
 		72B8681C17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B8681A17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png */; };
 		72B8682417B3C50100A871E5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B8682117B3C50100A871E5 /* MainStoryboard_iPhone.storyboard */; };
 		F6ACFD7519D3414A9256BAA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E65F1F32904CA68E71C0AC /* libPods.a */; };
+		FAF5A5C817BAE1A60034D597 /* SideSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C517BAE1A60034D597 /* SideSwipeTableViewCell.m */; };
+		FAF5A5C917BAE1A60034D597 /* SideSwipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5A5C717BAE1A60034D597 /* SideSwipeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,10 @@
 		72B8681917B3C49F00A871E5 /* LoginWithFacebookNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginWithFacebookNormal.png; sourceTree = "<group>"; };
 		72B8681A17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginWithFacebookNormal@2x.png"; sourceTree = "<group>"; };
 		72B8682217B3C50100A871E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FAF5A5C417BAE1A60034D597 /* SideSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSwipeTableViewCell.h; sourceTree = "<group>"; };
+		FAF5A5C517BAE1A60034D597 /* SideSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSwipeTableViewCell.m; sourceTree = "<group>"; };
+		FAF5A5C617BAE1A60034D597 /* SideSwipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSwipeTableViewController.h; sourceTree = "<group>"; };
+		FAF5A5C717BAE1A60034D597 /* SideSwipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSwipeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				7208343F17A0288800CEC1E5 /* Stiri */,
+				FAF5A5C317BAE1860034D597 /* Swipeable Stuff */,
 				7208346617A0288800CEC1E5 /* StiriTests */,
 				7208343817A0288800CEC1E5 /* Frameworks */,
 				7208343717A0288800CEC1E5 /* Products */,
@@ -318,6 +325,18 @@
 				72B8681A17B3C49F00A871E5 /* LoginWithFacebookNormal@2x.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		FAF5A5C317BAE1860034D597 /* Swipeable Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5A5C417BAE1A60034D597 /* SideSwipeTableViewCell.h */,
+				FAF5A5C517BAE1A60034D597 /* SideSwipeTableViewCell.m */,
+				FAF5A5C617BAE1A60034D597 /* SideSwipeTableViewController.h */,
+				FAF5A5C717BAE1A60034D597 /* SideSwipeTableViewController.m */,
+			);
+			name = "Swipeable Stuff";
+			path = Stiri;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,6 +514,8 @@
 				7206268917BAB2DD00455298 /* NewsGroup.m in Sources */,
 				7206268F17BAB2DE00455298 /* NewsItem.m in Sources */,
 				7206269217BAC51F00455298 /* NewsSource.m in Sources */,
+				FAF5A5C817BAE1A60034D597 /* SideSwipeTableViewCell.m in Sources */,
+				FAF5A5C917BAE1A60034D597 /* SideSwipeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
